@@ -77,19 +77,19 @@ def imgAutoCick(tempFile, whatDo, debug=False):
 
 
 
-if __name__ == '__main__':
-    # find_pic_click(r'D:\AI\yolo5\autoam\pic\rightcaidan.png')
-    imgAutoCick(r'D:\AI\yolo5\autoam\pic\dingdingicon.png',pyautogui.click)
-    # find_pic_click(r'D:\AI\yolo5\autoam\pic\dingdingicon.png')
-    imgAutoCick(r'D:\AI\yolo5\autoam\pic\ddsousuokuang.png', pyautogui.click)
-    # find_pic_click(r'D:\AI\yolo5\autoam\pic\ddsousuokuang.png')
+if __name__ == '__main__':    # imgAutoCick(r'D:\AI\HappyTools\autoam\pic\rightcaidan.png',pyautogui.click)
+    time.sleep(0.5)
+    imgAutoCick(r'D:\AI\HappyTools\autoam\pic\dingdingicon.png',pyautogui.click)
+
+    imgAutoCick(r'D:\AI\HappyTools\autoam\pic\ddsousuokuang.png', pyautogui.click)
+
     input('ypj')
     time.sleep(0.5)
-    imgAutoCick(r'D:\AI\yolo5\autoam\pic\name.png', pyautogui.click)
-    # find_pic_click(r'D:\AI\yolo5\autoam\pic\name.png')
-    imgAutoCick(r'D:\AI\yolo5\autoam\pic\shurukuang.png', pyautogui.click)
-    # find_pic_click(r'D:\AI\yolo5\autoam\pic\shurukuang.png')
+    imgAutoCick(r'D:\AI\HappyTools\autoam\pic\name.png', pyautogui.click)
+
+    imgAutoCick(r'D:\AI\HappyTools\autoam\pic\shurukuang.png', pyautogui.click)
+
     pyperclip.copy('你好')
     pyautogui.hotkey('ctrl', 'v')
     time.sleep(0.5)
-    press_a_times('enter')
+    # press_a_times('enter')
